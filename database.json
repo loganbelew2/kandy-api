@@ -1,0 +1,335 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "email": "john@example.com",
+      "isEmployee": true
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "email": "sarah@example.com",
+      "isEmployee": true
+    },
+    {
+      "id": 3,
+      "name": "Emily Davis",
+      "email": "emily@example.com",
+      "isEmployee": false
+    },
+    {
+      "id": 4,
+      "name": "Michael Brown",
+      "email": "michael@example.com",
+      "isEmployee": false
+    },
+    {
+      "id": 5,
+      "name": "Jessica Lee",
+      "email": "jessica@example.com",
+      "isEmployee": false
+    },
+    {
+      "id": 6,
+      "name": "David Wilson",
+      "email": "david@example.com",
+      "isEmployee": true
+    },
+    {
+      "id": 7,
+      "name": "Olivia Taylor",
+      "email": "olivia@example.com",
+      "isEmployee": false
+    },
+    {
+      "id": 8,
+      "name": "Daniel Anderson",
+      "email": "daniel@example.com",
+      "isEmployee": true
+    },
+    {
+      "id": 9,
+      "name": "Sophia Martinez",
+      "email": "sophia@example.com",
+      "isEmployee": false
+    },
+    {
+      "id": 10,
+      "name": "Ethan Thomas",
+      "email": "ethan@example.com",
+      "isEmployee": true
+    },
+    {
+      "email": "loganbelew2@gmail.com",
+      "name": "Logan Belew",
+      "isEmployee": true,
+      "id": 11
+    },
+    {
+      "email": "johnCena10@gmail.com",
+      "name": "John Cena",
+      "isEmployee": false,
+      "id": 12
+    },
+    {
+      "name": "Miley Gunna",
+      "email": "Miley Gunna@example.com",
+      "isEmployee": true,
+      "id": 13
+    },
+    {
+      "name": "Johnny Campbell",
+      "email": "JohnnyCampbell@example.com",
+      "isEmployee": true,
+      "id": 14
+    },
+    {
+      "email": "loganbelew3@gmail.com",
+      "fullName": "Logan",
+      "isEmployee": true,
+      "id": 15
+    },
+    {
+      "email": "ambar.gonzalez34@gmail.com",
+      "fullName": "adfhasifo",
+      "isEmployee": false,
+      "id": 16
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "address": "1234 Oak Street, Cityville",
+      "phoneNumber": 5551234567,
+      "loyaltyNumber": 11111,
+      "userId": 3
+    },
+    {
+      "id": 2,
+      "address": "5678 Elm Avenue, Townsville",
+      "phoneNumber": 9876543210,
+      "loyaltyNumber": 11112,
+      "userId": 4
+    },
+    {
+      "id": 3,
+      "address": "9012 Maple Drive, Villageland",
+      "phoneNumber": 1234567890,
+      "loyaltyNumber": 11113,
+      "userId": 5
+    },
+    {
+      "id": 4,
+      "address": "3456 Pine Road, Hamletville",
+      "phoneNumber": 7890123456,
+      "loyaltyNumber": 11114,
+      "userId": 7
+    },
+    {
+      "id": 5,
+      "address": "7890 Cedar Lane, Boroughburg",
+      "phoneNumber": 246810214,
+      "loyaltyNumber": 11115,
+      "userId": 9
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "startDate": 1643644800,
+      "payRate": 20,
+      "userId": 1,
+      "locationId": 3
+    },
+    {
+      "id": 2,
+      "startDate": 1644552000,
+      "payRate": 22,
+      "userId": 2,
+      "locationId": 5
+    },
+    {
+      "id": 3,
+      "startDate": 1650172800,
+      "payRate": 18,
+      "userId": 6,
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "startDate": 1656124800,
+      "payRate": 19,
+      "userId": 8,
+      "locationId": 4
+    },
+    {
+      "id": 5,
+      "startDate": 1661932800,
+      "payRate": 26,
+      "userId": 10,
+      "locationId": 2
+    },
+    {
+      "name": "Miley Gunna",
+      "Pay": 25,
+      "Start Date": "2003-10-25T05:00:00.000Z",
+      "locationId": 5,
+      "userId": 13,
+      "id": 6
+    },
+    {
+      "name": "Johnny Campbell",
+      "Pay": 40,
+      "Start Date": "2023-03-05T06:00:00.000Z",
+      "locationId": 2,
+      "userId": 14,
+      "id": 7
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "9876 Willow Lane, Riverside",
+      "squareFeet": 5400
+    },
+    {
+      "id": 2,
+      "address": "54321 Birch Street, Mountainville",
+      "squareFeet": 6200
+    },
+    {
+      "id": 3,
+      "address": "2468 Spruce Avenue, Lakeside",
+      "squareFeet": 4800
+    },
+    {
+      "id": 4,
+      "address": "13579 Pine Road, Meadowville",
+      "squareFeet": 7700
+    },
+    {
+      "id": 5,
+      "address": "8023 Oak Drive, Valleyburg",
+      "squareFeet": 5800
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "category": "chocolate"
+    },
+    {
+      "id": 2,
+      "category": "hard candy"
+    },
+    {
+      "id": 3,
+      "category": "gummy candy"
+    },
+    {
+      "id": 4,
+      "category": "sour candy"
+    },
+    {
+      "id": 5,
+      "category": "chewy candy"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "name": "Hershey kiss",
+      "productTypeId": 1,
+      "price": 2.5
+    },
+    {
+      "id": 2,
+      "locationId": 3,
+      "name": "M&M's",
+      "productTypeId": 1,
+      "price": 1.99
+    },
+    {
+      "id": 3,
+      "locationId": 2,
+      "name": "Jolly Rancher",
+      "productTypeId": 2,
+      "price": 0.99
+    },
+    {
+      "id": 4,
+      "locationId": 2,
+      "name": "Haribo Goldbears",
+      "productTypeId": 3,
+      "price": 2.49
+    },
+    {
+      "id": 5,
+      "locationId": 5,
+      "name": "Sour Patch Kids",
+      "productTypeId": 4,
+      "price": 1.49
+    },
+    {
+      "id": 6,
+      "locationId": 4,
+      "name": "Starburst",
+      "productTypeId": 5,
+      "price": 1.79
+    },
+    {
+      "id": 7,
+      "locationId": 1,
+      "name": "Kit Kat",
+      "productTypeId": 1,
+      "price": 1.99
+    },
+    {
+      "id": 8,
+      "locationId": 5,
+      "name": "Skittles",
+      "productTypeId": 2,
+      "price": 1.49
+    },
+    {
+      "id": 9,
+      "locationId": 2,
+      "name": "Swedish Fish",
+      "productTypeId": 3,
+      "price": 1.29
+    },
+    {
+      "id": 10,
+      "locationId": 2,
+      "name": "Warheads",
+      "productTypeId": 4,
+      "price": 0.79
+    },
+    {
+      "userId": 11,
+      "locationId": 4,
+      "name": "chocolate bunny",
+      "price": 2.33,
+      "productTypeId": 1,
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "locationId": 3,
+      "name": "lindor ball",
+      "price": 2.22,
+      "productTypeId": 1,
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "name": "Purple Gumball",
+      "price": 1,
+      "productTypeId": 2,
+      "locationId": 3,
+      "id": 13
+    }
+  ]
+}
